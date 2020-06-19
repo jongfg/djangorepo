@@ -37,3 +37,8 @@ header = {
 }
 print("Header: ")
 print(header)
+
+# build requests
+requestData = requests.get(targetAPI, header)
+print("response status: ")
+print(requestData)
