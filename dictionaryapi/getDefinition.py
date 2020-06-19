@@ -42,3 +42,9 @@ print(header)
 requestData = requests.get(targetAPI, header)
 print("response status: ")
 print(requestData)
+
+# display results to console
+requestData_json = requestData.json()
+print("Defintion object for " + targetWord + ": ")
+print(requestData_json)
+
