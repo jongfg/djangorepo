@@ -22,3 +22,11 @@ print("hello world")
 print("Get Definition of word: ")
 targetWord = input("Enter a word to lookup: ")
 print("You entered the word: " + targetWord)
+
+# build URL
+apiKey = "0b0a9ab9-9b89-4c81-90ef-5fb4ba395b29"
+print("API key: " + apiKey)
+apiURL = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/"
+print("API URL: " + apiURL)
+targetAPI= apiURL + targetWord + "?key=" + apiKey
+print(targetAPI)
