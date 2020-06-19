@@ -15,4 +15,10 @@
 import requests #pip3 install requests
 import json
 
+# test console output
 print("hello world")
+
+# get input from user
+print("Get Definition of word: ")
+targetWord = input("Enter a word to lookup: ")
+print("You entered the word: " + targetWord)
