@@ -12,5 +12,7 @@
 # convert data from json to object literal
 # display data on console
 
-import requests #pip3 instasll requests
+import requests #pip3 install requests
 import json
+
+print("hello world")
