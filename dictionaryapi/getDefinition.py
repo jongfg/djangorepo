@@ -11,3 +11,6 @@
 # execute query against api and receive response data
 # convert data from json to object literal
 # display data on console
+
+import requests #pip3 instasll requests
+import json
