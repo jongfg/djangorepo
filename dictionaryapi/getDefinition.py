@@ -30,3 +30,10 @@ apiURL = "https://www.dictionaryapi.com/api/v3/references/collegiate/json/"
 print("API URL: " + apiURL)
 targetAPI= apiURL + targetWord + "?key=" + apiKey
 print(targetAPI)
+
+# build header
+header = {
+    'content-type': 'application/json'
+}
+print("Header: ")
+print(header)
