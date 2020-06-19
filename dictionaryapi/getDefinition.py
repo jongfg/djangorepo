@@ -48,3 +48,22 @@ requestData_json = requestData.json()
 print("Defintion object for " + targetWord + ": ")
 print(requestData_json)
 
+# test: expected output
+""" 
+run> python3 getDefinition.py 
+console output:
+hello world
+Get Definition of word: 
+Enter a word to lookup: python
+You entered the word: python
+API key: 0b0a9ab9-9b89-4c81-90ef-5fb4ba395b29
+API URL: https://www.dictionaryapi.com/api/v3/references/collegiate/json/
+https://www.dictionaryapi.com/api/v3/references/collegiate/json/python?key=0b0a9ab9-9b89-4c81-90ef-5fb4ba395b29
+Header: 
+{'content-type': 'application/json'}
+response status: 
+<Response [200]>
+Defintion object for python: 
+[{'meta': {'id': 'python', 'uuid': 'be1628ad-fd15-492c-84df-76f1f9d41de6', 'sort': '169097000', 'src': 'collegiate', 'section': 'alpha', 'stems': ['python', 'pythons'], 'offensive': False}, 'hwi': {'hw': 'py*thon', 'prs': [{'mw': 'ˈpī-ˌthän', 'sound': {'audio': 'python01', 'ref': 'c', 'stat': '1'}}, {'mw': '-thən'}]}, 'fl': 'noun', 'def': [{'sseq': [[['sense', {'dt': [['text', '{bc}any of various large constricting snakes']], 'sdsense': {'sd': 'especially', 'dt': [['text', '{bc}any of the large oviparous snakes (subfamily Pythoninae of the family Boidae) of Africa, Asia, Australia, and adjacent islands that include some of the largest existing snakes']]}}]]]}], 'art': {'artid': 'python', 'capt': 'python'}, 'et': [['text', 'Latin, monstrous serpent killed by Apollo, from Greek {it}Pythōn{/it}, from {it}Pythō{/it} Delphi']], 'date': 'circa 1825', 'shortdef': ['any of various large constricting snakes; especially : any of the large oviparous snakes (subfamily Pythoninae of the family Boidae) of Africa, Asia, Australia, and adjacent islands that include some of the largest existing snakes']}] 
+
+end output"""
