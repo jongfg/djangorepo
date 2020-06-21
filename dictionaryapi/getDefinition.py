@@ -15,8 +15,13 @@
 import requests #pip3 install requests
 import json
 
-# test console output
+def sayHello(name):
+    print("Hello " + name)
+    return "success"
+
 print("hello world")
+helloResp = sayHello("jon")
+
 
 # get input from user
 print("Get Definition of word: ")
