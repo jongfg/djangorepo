@@ -21,6 +21,7 @@ def sayHello(name):
 
 print("hello world")
 helloResp = sayHello("jon")
+print(helloResp)
 
 
 # get input from user
